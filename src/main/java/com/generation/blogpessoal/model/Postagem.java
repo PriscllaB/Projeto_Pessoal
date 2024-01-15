@@ -33,6 +33,8 @@ public class Postagem {
 
 	@UpdateTimestamp
 	private LocalDateTime data;
+	
+	
 
 	@ManyToOne
 	@JsonIgnoreProperties("postagem")
